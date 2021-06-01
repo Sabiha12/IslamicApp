@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">IslamicApp</string>
+    <string name="title_prayer_time">Prayer Time</string>
+    <string name="title_qibla">Qibla</string>
+    <string name="title_quran">Quran</string>
+    <string name="title_settings">Settings</string>
+    <string name="progress_dialog_text">Please wait</string>
+    <string name="search_hint">surah name or page no</string>
+    <string name="find_surah">Find Surah</string>
+    <string name="gps_setting_title">GPS settings</string>
+    <string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="gps_setting_message">Sorry, this function requires that you enable your device\'s GPS (location). </string>
+    <string name="qibla_degree">0.00 °</string>
+    <string name="distance_from_qibla">Distance from Qibla:</string>
+    <string name="km">KM</string>
+    <string name="magnetic_sensor_not_available">Magnetic sensor not available !!</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="no_internet_connection">You have no Internet connection</string>
+    <string name="prayer_time_today">Prayer times for today</string>
+    <string name="required_data_connection">Sorry, this function requires a data connection. Please connect your device to the internet.</string>
+    <string name="fajr">Fajr</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="asr">Asr</string>
+    <string name="magrib">Maghrib</string>
+    <string name="isha">Isha</string>
+
+
+    <string-array name="app_languages_code">
+        <item>en</item>
+        <item>ar</item>
+        <item>in</item>
+        <item>hi</item>
+        <item>ur</item>
+        <item>bn</item>
+        <item>tr</item>
+        <item>fa</item>
+        <item>am</item>
+        <item>ps</item>
+        <item>ru</item>
+        <item>zh</item>
+        <item>zh</item>
+        <item>ms</item>
+        <item>az</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>de</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

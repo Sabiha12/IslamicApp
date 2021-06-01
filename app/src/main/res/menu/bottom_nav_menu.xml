@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_quran"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="@string/title_quran" />
+
+    <item
+        android:id="@+id/navigation_qibla"
+        android:icon="@drawable/ic_baseline_directions_24"
+        android:title="@string/title_qibla" />
+
+    <item
+        android:id="@+id/navigation_prayer_time"
+        android:icon="@drawable/ic_baseline_access_time_24"
+        android:title="@string/title_prayer_time" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/title_settings" />
+
+</menu>

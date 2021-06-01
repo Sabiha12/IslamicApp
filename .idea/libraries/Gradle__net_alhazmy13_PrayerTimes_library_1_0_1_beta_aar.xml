@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: net.alhazmy13.PrayerTimes:library:1.0.1-beta@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/164241255249a09597ef18d20af1900d/jetified-library-1.0.1-beta/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/164241255249a09597ef18d20af1900d/jetified-library-1.0.1-beta/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/164241255249a09597ef18d20af1900d/jetified-library-1.0.1-beta/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.alhazmy13.PrayerTimes/library/1.0.1-beta/687f723a4c998e553b0b5c2724f8b2c62cb986cf/library-1.0.1-beta-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.alhazmy13.PrayerTimes/library/1.0.1-beta/a936325ca966f3504906c710d4db6ac9361af831/library-1.0.1-beta-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

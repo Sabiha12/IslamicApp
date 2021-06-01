@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:id="@+id/refreshLayout">
+        <androidx.cardview.widget.CardView
+            android:alpha="0.8"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/_5sdp"
+            app:cardBackgroundColor="@color/colorPrimary">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/locationLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/hintTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/prayer_time_today"
+                        android:textColor="@color/cardview_light_background"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:id="@+id/locationIV"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/ic_baseline_location_on_24"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp" />
+
+                        <TextView
+                            android:id="@+id/cityNameTv"
+                            android:textSize="16sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/cardview_light_background"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/singleLineTv"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_below="@+id/locationLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_below="@+id/singleLineTv"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:id="@+id/prayerTimeRV"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:padding="5dp"
+                    android:layout_gravity="bottom"
+                    android:alpha="0.5"
+                    android:background="#fff"
+                    android:id="@+id/errorNoInternetTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/required_data_connection"
+                    android:textStyle="bold"
+                    android:textColor="#252222"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-condensed"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</FrameLayout>
